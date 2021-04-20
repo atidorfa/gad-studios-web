@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "AGothic";
+    src: url("assets/fonts/AGothicNo3D.otf")
+}
+
+header {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: #2a2a2a;
+    text-transform: uppercase;
+    font-family: "AGothic", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    position: static!important;
+    line-height: 1.42857143;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    margin-bottom: 10px;
+}
+
+header ul {
+    display: block;
+    height: inherit;
+    margin: 0px auto 0px;
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 50px;
+}
+
+@media screen and (max-width:600px){
+    .logo{
+        display: none;
+    }
+    header{
+        align-items: center;
+    }
+    ul{
+        float: none;
+    }
+}
+
+header a {
+    display: block;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: inherit;
+    transition: all 300ms;
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    color: #FFB6C1 
+}
+
+header .actived {
+    background: rgba(0, 0, 0, 0.9);
+    color: #FFB6C1 
+}
+
+.logo {
+    float: left;
+}
+
+.logo a:hover {
+    background: transparent;
+}
+
+.brand {
+    font-family: "AGothic", Helvetica, Arial, sans-serif;
+    font-size: 32 px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+
+.footer {
+    position: relative;
+    width: 100%;
+    background: #2a2a2a;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: lightgray;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+}
+
+.footer .footer-top {
+    padding-top: 10px;
+    height: 40px;
+    text-align: center;
+    text-size-adjust: 100%;
+    text-decoration: none;
+    font-size: 2em;
+    letter-spacing: 10px;
+}
+
+.footer .footer-top a {
+    transition: all 300ms;
+    text-decoration: none;
+    color: white;
+}
+
+.footer .footer-content {
+    height: 0px;
+}
+
+.footer .footer-bottom {
+    display: block;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    font-size: 12px!important;
+}
+
+.social-icon:hover {
+    color: #FBC3D8;
+}
